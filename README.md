@@ -9,6 +9,7 @@
 首先，确保您已经安装了`requests`库。如果没有，请运行以下命令：
 ```
 bash
+
 pip install requests
 ```
 ## 使用
@@ -16,7 +17,9 @@ pip install requests
 要使用 `ThorApi`，首先导入类并创建实例，然后调用相关方法：
 ```
 python
+
 from thor_api_client import ThorApi
+
 user = "your_username"
 pwd = "your_password"
 thor = ThorApi(user, pwd)
