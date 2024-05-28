@@ -1,4 +1,4 @@
-# ThorApi Client
+# 雷神api
 
 ## 简介
 
