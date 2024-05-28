@@ -8,17 +8,19 @@
 
 首先，确保您已经安装了`requests`库。如果没有，请运行以下命令：
 
-bash 
+bash
 pip install requests
 
 ## 使用
 
 要使用 `ThorApi`，首先导入类并创建实例，然后调用相关方法：
 
-python 
+python
 from thor_api_client import ThorApi
-user = "your_username" pwd = "your_password"
-thor = ThorApi(user, pwd) thor.login() thor.recover() # 或者使用 thor.pause() 暂停服务
+user = "your_username"
+pwd = "your_password"
+thor = ThorApi(user, pwd)
+thor.recover() # 或者使用 thor.pause() 暂停服务
 
 ## 类与方法
 
